@@ -1,0 +1,121 @@
+body{
+    background-color: #fdf6f0;
+    color: #4e342e;
+}
+#head{
+    margin: 20px 0px 0px 20%;
+    color: #a04000;
+    font-weight: bold;
+    font-size: large;
+}
+.maintable{
+    display: flex; 
+    justify-content: center;
+    border-radius: 20px;
+}
+.table{
+    border: 2px solid;
+    width: 60%;
+    margin: 0px auto 40px auto;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 12px;
+      border-radius: 10px;
+      overflow: hidden;
+       box-shadow:  7px 7px 8px #a04000;
+         background-color: #fff;
+}
+.tablehead{
+    background-color: #a04000;
+    padding: 12px;
+    
+}
+
+ td{
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #d7ccc8;
+ }
+
+tr:hover{
+    background-color: #fcead1;
+
+}
+#api_msg{
+margin-left: 20px;
+text-align: center;
+font-size: larger;
+font: 600;
+color: #d35400;
+}
+#data{
+    display: flex;
+     justify-content: center;
+    
+}
+.formDiv{
+    border: 2px solid #d35400;
+          width: fit-content;
+          padding: 20px;
+          border-radius: 20px;
+          box-shadow: 7px 7px 8px #a04000;
+    
+}
+#newTask{
+    font-size: large;
+     font: 400;
+    color:#a04000;
+    font-weight: bold;
+}
+.outerdiv{
+    display: flex; flex-direction: row;
+}
+#name{
+    font-size: large; margin-bottom: 5px;
+    color: #6d4c41;
+    font-weight: bold;
+}
+#ename{
+    width: 340px;
+                height: 30px;
+                border-radius: 9px;
+                padding-left: 5px;
+                margin: 0px 0px 0px 5px;
+    border: 2px solid #bcaaa4;
+}
+#type{
+    font-size: large;
+    color: #6d4c41;
+    font-weight: bold;
+}
+#isdone{
+    width: 15px; height: 15px;
+    color: #d35400;
+}
+#submitbtn{
+    cursor: pointer;
+    color: white;
+    
+    background-color: #d35400;
+    font-size: 16px;
+              padding: 7px;
+              border-radius: 20px;
+              width: 90px;
+              border-color: wheat;
+}
+#submitbtn:hover{
+    background-color: #a04000;
+}
+#cancel{
+    font-size: 16px;
+              padding: 7px;
+              border-radius: 20px;
+              width: 90px;
+              background-color: #d35400;
+              cursor: pointer;
+              color: white;
+              border-color: wheat;
+}
+#cancel:hover{
+background-color: #a04000;
+}
