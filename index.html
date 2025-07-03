@@ -17,8 +17,8 @@
             <th class="tablehead">ID</th>
             <th class="tablehead">Name</th>
             <th  class="tablehead">Check</th>
-            <!-- < style="border-bottom: 1px solid #000;"th>createdAT</th>
-            <th style="border-bottom: 1px solid #000;">updatedAT</th> -->
+            <th class="tablehead">CreatedAT</th>
+            <th class="tablehead">UdatedAT</th>
             <th class="tablehead">Actions</th>
           </tr>
         </thead>
@@ -216,6 +216,8 @@
               <td>${item.id}</td>
               <td>${item.name}</td>
               <td>${item.done}</td>
+              <td>${new Date(item.createdAt).toLocaleString()}</td>
+              <td>${new Date(item.updatedAt).toLocaleString()}</td>
 
               <td>
                     <button class="updatedBtn" id="updateBtn${item.id}" style="color: green;border: solid 2px green;padding: 6px 9px;cursor: pointer;background-color: rgba(0, 128, 0, 0.09); border-radius:10px;" >Update </button>
